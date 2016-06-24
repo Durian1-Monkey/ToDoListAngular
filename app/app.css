@@ -28,3 +28,177 @@
   content: "";
   padding: 0;
 }
+
+body {
+  text-align: center;
+  background-color: #f5f5f5;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  color: #ead7d7;
+  font-size: 50px;
+}
+.form {
+  border: 1px #fff solid;
+  margin-top: 0;
+  margin-left: 25%;
+  background-color: #fff;
+  width: 50%;
+  border-style: none;
+}
+
+#btntoggle {
+  position: absolute;
+  width:5%;
+  height: 71px;
+  left: 25%;
+  border-style: none;
+}
+
+#inputForm {
+  margin-left: 9%;
+  background-color: #fff;
+  height: 65px;
+  width: 87%;
+  left: 25%;
+  padding-left: 3%;
+  font-size: 30px;
+}
+
+#inputAllForm {
+  border: 1px #e6e6e6 solid;
+}
+
+#inputForm::-webkit-input-placeholder {
+   color: red;
+   padding-top: 30px;
+   font-size: 30px;
+   font-style: italic;
+   color: #9e9e9e;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+
+ul {
+  list-style: none;
+  background-color: #fff;
+  text-align: left;
+  padding-left: 0;
+  width: 100%;
+}
+
+li {
+  border: 1px #e6e6e6 solid;
+  margin:0;
+  width: 100%;
+}
+
+#btndone {
+  margin-left: 0;
+  border-radius: 50%;
+}
+/*
+span {
+  text-align: left;
+  width: 50px;
+  height: 50px;
+}
+*/
+
+.addLine-true {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#btmbtn {
+  background-color: black;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#btndelete {
+  margin-left: auto;
+  color: #9e9e9e;
+}
+
+#showTheLeft {
+  background-color: #fff;
+  color: #9e9e9e;
+  margin: 0 3% 0 0;
+  text-align: left;
+}
+
+#btnall {
+  background-color: #fff;
+  border:none;
+  color: #9e9e9e;
+}
+
+#btnall:hover {
+  border: solid 1px #efd5d5;
+}
+
+#btnall:active {
+  border: solid 1px #efd5d5;
+}
+
+#btnactive {
+  background-color: #fff;
+  border:none; 
+  color: #9e9e9e;
+}
+
+#btnactive:hover {
+  border: solid 1px #efd5d5;
+}
+
+#btnactive:active {
+  border: solid 1px #efd5d5;
+}
+#btncomplete {
+  background-color: #fff;
+  border:none;
+  color: #9e9e9e;
+  margin-right: 20%;
+}
+
+#btncomplete:hover {
+  border: solid 1px #efd5d5;
+}
+
+#btncomplete:active {
+  border: solid 1px #efd5d5;
+}
+#btnclear {
+  background-color: #fff;
+  border:none; 
+  color: #9e9e9e;
+}
+
+#btnclear:hover {
+  border: solid 1px #efd5d5;
+}
+
+#btnclear:active {
+  border: solid 1px #efd5d5;
+}
+/*
+.showup {
+  display: none;
+}
+
+li :hover + .showup {
+  display: inline;
+}
+*/

@@ -295,3 +295,29 @@ For more information on AngularJS please check out http://angularjs.org/
 [karma]: http://karma-runner.github.io
 [travis]: https://travis-ci.org/
 [http-server]: https://github.com/nodeapps/http-server
+
+## Process
+### Setup
+#### 1. Set up AngularJS
+use this [link](https://github.com/angular/angular-seed)
+
+#### 2. Make input form and output
+#### 2.1. make input form and output
+#### 2.2. In index.html, make inout form and expression
+#### 2.3. In app.js, make AppCtrl to return the data which input using ng-controller
+
+### 3. Save data
+#### 3.1. add ng-submit in index.html
+#### 3.2. add submit function in app.js.
+#### 3.3. Make the empty list with list variable and function called submit. Inside the function, push the data which is written in the input field. After submitting the data, the input form will be initialised as empty.
+
+### 4. save input data in <li> tag every time.
+#### 4.1. Add <ul> and <li> tag in index.html.
+Inside the <li> tag add ng-repeat to repeat the process of generating <li> tag.
+#### 4.2. Inside the submit function, add new function called add function and transfer the functionality of pushing data inside of it.
+#### 4.3. In submit button, add add() function using ngClick directive.
+
+### 5. Add a click button to show the specific todo list has done.
+#### 5.1. in app.js, increment new value  called addLine to change the status of the list using boolean.
+#### 5.2. In index.html, increment ngModel directive in the input tag with addLine value.
+#### 5.3. increment span tag to make decoration with css.
